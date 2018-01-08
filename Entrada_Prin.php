@@ -1,7 +1,7 @@
 <?php
 $nombre_carpeta="src/entradaP";
 $cantidad=346;
-$imagen=7;
+$imagen=1;
  ?>      
  
 
@@ -25,7 +25,7 @@ $imagen=7;
 		var seguro = 0;
 	//CARGA ARREGLO     
 			{imagenes = new CreaArray(cantidad);
-			for (var a=7;a<=cantidad;a++) 
+			for (var a=1;a<=cantidad;a++) 
 				{
 					imagenes[a].src = nombre_carpeta+"/escene"+a+".jpg";
 				}
@@ -35,7 +35,7 @@ $imagen=7;
 	//CREAR ARREGLO         
 			function CreaArray(n) {
 				this.length = n;
-				for (var i = 7; i<=n; i++) {
+				for (var i = 1; i<=n; i++) {
 					this[i] = new Image();
 				}
 				return this;

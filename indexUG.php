@@ -85,8 +85,11 @@
 						</h2>
 					<br>
 						<button type="button"  onclick="loadTour(0)" class="btn btn-danger btn-lg">Iniciar</button>
+						
 				</div>
 				
+				<div id="alerta">Presione el boton para iniciar el recorrido del Tour Virtual
+				</div>
 						<div class="modal fade" id="principal" tabindex="-1" role="dialog" data-keyboard="false" data-backdrop="static" >
 							
 					<div class="modal-dialog modal-lg" >
@@ -119,6 +122,22 @@
 					
 					 
 								</div>
+								<div class="alert alert-info alert-dismissable">
+            
+                    <!--<div class="icon"><img src="img/icon-up.png" width="40%" height="40%"></div>-->
+                    <!--<div align="right">
+    <span  id="close" class="btn btn-warning btn-sm" ><strong><font color="black">X</font></strong></span>
+    </div>-->
+    <a href="#" class="close" data-dismiss="alert" aria-label="close">X</a>
+    <h3>  
+    <span class="glyphicon glyphicon-chevron-up"></span>
+    <span class="glyphicon glyphicon-chevron-down"></span>
+    <span class="glyphicon glyphicon-play"></span>
+    <span class="glyphicon glyphicon-pause"></span>
+    <span class="glyphicon glyphicon-step-backward"></span> 
+    </h3><br>
+                        <h5>Utilice los botones flotantes para disfrutar  el recorrido</h5>
+                    </div> 
 
 				</div>
 				
